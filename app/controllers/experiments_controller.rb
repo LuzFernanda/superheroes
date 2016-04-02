@@ -9,6 +9,6 @@ class ExperimentsController < ApplicationController
   end
 
   def page3
-  	render layout: "bootstrap"
   end
+  
 end
