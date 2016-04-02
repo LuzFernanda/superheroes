@@ -11,5 +11,15 @@
 			<div id="superman">
 			</div>
 		</a>
+<div id="res">	
+	<p id = "vota">Vota por tu superheroe!</p>
+	<%= form_for @heroe do |f| %>
+ 	<%= f.label :NameHeroe %>
+  	<%= f.text_field :name %>
+  	<%= f.label :email %>
+  	<%= f.text_field :email %>
+  	<%= f.submit %>
+	<% end %>
+</div>
 	</body>
 </html>

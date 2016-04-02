@@ -40,3 +40,13 @@ html, body{
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+#res{
+	height: 15%;
+	margin: 0;
+	font-size: 30px;
+}
+#vota{
+	margin: 0;
+	text-align: center;
+	font-size: 45px;
+}

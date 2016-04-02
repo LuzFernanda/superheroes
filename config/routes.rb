@@ -1,10 +1,14 @@
 Rails.application.routes.draw do
+  get 'heroes/index'
+
   get 'pages/batman'
 
   get 'pages/superman'
 
   get 'pages/batmanvssuperman'
 
+  resources :batmanvssuperman, :heroes
+  
   root 'pages#batmanvssuperman'
 
 
